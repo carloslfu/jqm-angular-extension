@@ -1,0 +1,10 @@
+<div id="View_Header" data-role="header">
+    <p align="center">LoginJqmAngular</p>
+</div>
+
+<div id="View_Content" data-role="content">
+    <a href="#about" data-role="button">About</a>
+    <a href="#user" ng-if="isLogged == true" data-role="button">User</a>
+    <a href="#login" ng-if="isLogged == false" data-role="button">Login</a>
+    <a href="" ng-if="isLogged == true" ng-click="logout()" data-role="button">Logout</a>
+</div>
