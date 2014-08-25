@@ -7,7 +7,7 @@ The modifications are listed here:
 **angular.js to angular-jqm.js modifications**
 
 - lines 1 to 19: options for basic compatibility, disable some options of jqm
-- line 5555: ```javascript $('body').trigger('create'); ``` , That render any element in body when angular compiles anything
+- line 5555: ``` $('body').trigger('create'); ``` , That render any element in body when angular compiles anything
 
 **angular-route.js to angular-route-jqm.js modifications**
 
